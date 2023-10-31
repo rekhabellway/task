@@ -5,6 +5,7 @@ import 'package:task/view/screen/comment/comment_screen.dart';
 import 'package:task/view/screen/story/story_screen.dart';
 import '../home/home_screen.dart';
 import '../user/your_activity.dart';
+import '../video_player/video_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   List<Widget> _buildScreens() => [
         const HomeScreen(),
-        const YourActivity(),
+         const VideoScreen(),
         const StoryScreen(),
         const ChatScreen(),
         const CommentScreen(),

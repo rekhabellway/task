@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:task/util/dimensions.dart';
+import 'package:task/view/screen/home/home_screen.dart';
 import 'package:task/view/screen/share/share_screen.dart';
 
 class QRScreen extends StatelessWidget {
@@ -19,7 +20,7 @@ class QRScreen extends StatelessWidget {
           children: [
             IconButton(
                 onPressed: () {
-                  Get.back();
+                  Get.to(()=> const HomeScreen());
                 },
                 icon: Icon(
                   Icons.close,

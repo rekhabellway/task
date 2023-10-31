@@ -144,7 +144,7 @@ class _VideoScreenState extends State<VideoScreen> {
               const SizedBox(
                 height: Dimensions.paddingSizeDefault,
               ),
-              IconButton( onPressed: () {  Get.back();}, icon: Icon(Icons.close, color: Colors.black),)
+              IconButton( onPressed: () {  Get.back();}, icon: const Icon(Icons.close, color: Colors.black),)
             ],
           )),
     );

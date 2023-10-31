@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
@@ -25,6 +24,7 @@ class _LoginApiState extends State<LoginApi> {
       if (response.statusCode == 200) {
         var data = jsonDecode(response.body.toString());
         print(data['id']);
+      //  print(data);
         print('account created successfully');
       } else {
         print('failed');

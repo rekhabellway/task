@@ -42,80 +42,88 @@ class SavePost extends StatelessWidget {
           const SizedBox(
             height: Dimensions.paddingSizeDefault,
           ),
-          Row(
-            children: [
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              const Spacer(),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-            ],
+          Padding(
+            padding: const EdgeInsets.all(4.0),
+            child: Row(
+              children: [
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),  SizedBox(width:Dimensions.paddingSizeSmall),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+                const Spacer(),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),  SizedBox(width:Dimensions.paddingSizeSmall),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+              ],
+            ),
           ),
-         Row(
-            children: [
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              const Spacer(),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-              ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.asset(
-                    Images.test,
-                    fit: BoxFit.cover,
-                    height: 80,
-                    width: 80,
-                  )),
-            ],
-          ),
+         Padding(
+           padding: const EdgeInsets.all(4.0),
+           child: Row(
+              children: [
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+                SizedBox(width:Dimensions.paddingSizeSmall),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+                const Spacer(),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+                SizedBox(width:Dimensions.paddingSizeSmall),
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      Images.test,
+                      fit: BoxFit.cover,
+                      height: 80,
+                      width: 80,
+                    )),
+              ],
+            ),
+         ),
           const SizedBox(height: Dimensions.paddingSizeSmall,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
